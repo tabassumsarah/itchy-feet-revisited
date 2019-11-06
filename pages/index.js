@@ -1,8 +1,12 @@
+import Link from 'next/link';
+
 const Index = () => (
     <div>
-        <p>Welcome to my awesome app</p>
-        <p>Created a PR</p>
-
+        <Link href="/home">
+            <a>Home Page</a>
+        </Link>
+        <p>Hello Next.js</p>
     </div>
 );
+
 export default Index;
